@@ -1,0 +1,45 @@
+body 
+{
+    margin: 0;
+    overflow: hidden;
+    background: url("https://assets.wanikani.com/assets/default-v2/bg-texture-f915951af4e4baa78c241cff9ae477176056f54f669ff024c261eb1b08eb31e5.png");
+    font-family: sans-serif;
+}
+
+canvas 
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+img 
+{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 70px;
+    height: 70px;
+    filter: saturate(200%);
+}
+
+canvas.preview
+{
+    pointer-events: none;
+    image-rendering: optimizeSpeed;
+}
+
+p 
+{
+    z-index: 100;
+    position: absolute;
+    margin: 0;
+}
+
+button 
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 100;
+}
